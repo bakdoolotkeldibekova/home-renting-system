@@ -1,0 +1,64 @@
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Ma Shan Zheng', cursive; */
+/* #F9F9F9 */
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menu_btn:hover {
+    border: none;
+    outline: none;
+}
+
+#menu_btn[aria-expanded="true"] i::before {
+    content: "\f106";
+}
+#menu_btn[aria-expanded="false"] i::before {
+    content: "\f107";
+}
+
+.navbar-brand {
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.navbar-toggler {
+    outline: none;
+    color: rgba(0, 0, 0, 0.6) !important;
+    border: none;
+    padding-right: 0;
+}
+
+.card .card-text {
+    -webkit-line-clamp: 2;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+}
+
+.card a {
+    color: #515A5A;
+}
+
+.card .card-title {
+    color: #154360;
+}
+
+.card i.fa-heart {
+    color: #E74C3C;
+}
+
+.card i:hover {
+    cursor: pointer;
+}
+
+nav .page-item a {
+    color: black;
+}
+
+nav .page-item.active .page-link {
+    background-color: #696969;
+    border-color: #696969;
+}
